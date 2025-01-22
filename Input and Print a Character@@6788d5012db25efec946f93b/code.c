@@ -2,8 +2,8 @@
 
 
 int main() {
-    char let;
-    printf("Enter the charac: ");
+    char ch;
+    printf(" ");
     scanf("%c",&let);
     printf("You entered: %c",let);
     return 0;
