@@ -2,9 +2,9 @@
 
 
 int main() {
-    int A;
-    printf("Enter the number: ");
-    scanf("%d",&A);
-    printf("%d", A);
+    char A;
+    printf("Enter the charac: ");
+    scanf("%c",&A);
+    printf("%c", A);
     return 0;
 }
