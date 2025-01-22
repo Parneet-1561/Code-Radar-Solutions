@@ -2,10 +2,9 @@
 
 
 int main() {
-    int x;
-    scanf("%d", &x);
-    int y;
-    scanf("%d", &y);
-    printf("sum: %d", x + y);
+    int x, y;
+    scanf("%d %d", &x, &y);
+    int sum = x + y;
+    printf("sum: %d", sum);
     return 0;
 }
