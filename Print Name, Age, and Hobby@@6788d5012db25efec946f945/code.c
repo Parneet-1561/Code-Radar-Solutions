@@ -2,7 +2,7 @@
 
 int main() {
     char ch[5];
-    scanf("%s", &ch);
+    scanf("%s", ch);
     printf("Name: %s\n", ch)
     int x;
     scanf("%d", &x);
