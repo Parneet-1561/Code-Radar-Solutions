@@ -3,7 +3,7 @@
 int main() {
     int x, y, z;
     scanf("%d %d %d", &x, &y, &z);
-    result = (x + y + z) / 3;
+    float result = (x + y + z) / 3;
     printf("Average: %f", result);
     return 0;
 }
