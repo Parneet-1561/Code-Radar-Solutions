@@ -7,16 +7,16 @@ int main() {
         printf("A");
     }
     if (x >= 80 && x < 90) {
-        printf("B")
+        printf("B");
     }
     if (x >= 70 && x < 80) {
-        printf("C")
+        printf("C");
     } 
     if (x >= 60 && x < 70) {
-        printf("D")
+        printf("D");
     } 
     if (x < 60) {
-        printf("F")
+        printf("F");
     }
     return 0;
 }
