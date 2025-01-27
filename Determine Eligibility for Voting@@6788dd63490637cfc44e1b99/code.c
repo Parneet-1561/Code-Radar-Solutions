@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    age x;
+    int age x;
     scanf("%d, &age");
     if (age > 18) {
         printf("Eligible");
