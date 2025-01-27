@@ -6,17 +6,23 @@ int main() {
     scanf("%d", &num);
     if (num == 1) {
         printf("Monday");
-    } else if (num == 2) {
+    } 
+    else if (num == 2) {
         printf("Tuesday\n");
-    } else if (num == 3) {
+    } 
+    else if (num == 3) {
         printf("Wednesday\n");
-    } else if (num == 4) {
+    } 
+    else if (num == 4) {
         printf("Thursday\n");
-    } else if (num == 5) {
+    } 
+    else if (num == 5) {
         printf("Friday\n");
-    } else if (num == 6) {
+    } 
+    else if (num == 6) {
         printf("Saturday\n");
-    } else {
+    } 
+    else {
         printf("Sunday");
     }
     return 0;
