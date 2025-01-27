@@ -10,9 +10,8 @@ int main() {
         printf("%d", x - y);
     } else if (operator == '*') {
         printf("%d", x * y);
+    } else if (operator == '/') {
+        printf("%f", x / y);
     } 
-    else {
-        printf("error");
-    }
     return 0;
 }
