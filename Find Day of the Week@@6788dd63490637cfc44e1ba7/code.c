@@ -7,25 +7,17 @@ int main() {
     if (num == 1) {
         printf("Monday");
     } else if (num == 2) {
-        printf("Tuesday");
+        printf("Tuesday\n");
     } else if (num == 3) {
-        printf("Wednesday");
+        printf("Wednesday\n");
     } else if (num == 4) {
-        printf("Thursday");
+        printf("Thursday\n");
     } else if (num == 5) {
-        printf("Friday");
+        printf("Friday\n");
     } else if (num == 6) {
-        printf("Saturday");
+        printf("Saturday\n");
     } else {
         printf("Sunday");
     }
-
-
-
-
-
-
-
-
     return 0;
 }
