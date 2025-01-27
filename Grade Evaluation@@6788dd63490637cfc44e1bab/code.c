@@ -3,9 +3,9 @@
 int main() {
     char xh;
     scanf("%c", &x);
-    if (xh == A) {
+    if (xh == 'A') {
         printf("Excellent");
-    } else if (xh == B) {
+    } else if (xh == 'B') {
         printf("Good");
     }
     return 0;
