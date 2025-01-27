@@ -1,13 +1,16 @@
 #include <stdio.h>
 
 int main(){
-    char xh;
-    scanf("%c", &xh);
-    if (xh == 'A') {
+    char grade;
+    scanf("%c", &grade);
+    if (grade == 'A') {
         printf("Excellent");
     } 
-    else if (xh == 'B') {
+    else if (grade == 'B') {
         printf("Good");
+    } 
+    else {
+        printf("Fail");
     }
     return 0;
 }
