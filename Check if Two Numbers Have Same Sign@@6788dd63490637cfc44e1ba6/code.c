@@ -7,8 +7,6 @@ int main() {
         printf("Same Sign");
     } else if (x < 0 && y < 0) {
         printf("Negative");
-    } else {
-        printf("Different Sign");
-    }
+    } 
     return 0;
 }
