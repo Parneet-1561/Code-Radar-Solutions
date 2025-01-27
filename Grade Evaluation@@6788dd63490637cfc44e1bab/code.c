@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-int main() {
+int main(){
     char xh[100];
-    scanf("%s", &xh);
+    scanf("%c", &xh);
     if (xh == 'A') {
         printf("Excellent");
-    } else if (xh == 'B') {
+    } 
+    else if (xh == 'B') {
         printf("Good");
     }
     return 0;
