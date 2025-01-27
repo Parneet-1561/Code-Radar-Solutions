@@ -9,7 +9,7 @@ int main() {
     } else if (operator == '-') {
         printf("%d", x - y);
     } else {
-        printf("Invalid")
+        printf("Invalid");
     }
     return 0;
 }
