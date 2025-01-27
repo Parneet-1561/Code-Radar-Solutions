@@ -8,9 +8,18 @@ int main(){
     } 
     else if (grade == 'B') {
         printf("Good");
+    }  
+    else if (grade == 'C') {
+        printf("Average");
+    }
+    else if (grade == 'D') {
+        printf("Below Average");
     } 
-    else {
+    else if (grade == 'F') {
         printf("Fail");
+    }
+    else {
+        printf("Invalid");
     }
     return 0;
 }
