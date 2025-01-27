@@ -8,8 +8,12 @@ int main() {
         printf("%d", x + y);
     } else if (operator == '-') {
         printf("%d", x - y);
+    } else if (operator == '*') {
+        printf("%d", x * y);
+    } else if (operator == '/') {
+        printf("%d", x / y);
     } else {
-        printf("Invalid");
+        printf("error");
     }
     return 0;
 }
