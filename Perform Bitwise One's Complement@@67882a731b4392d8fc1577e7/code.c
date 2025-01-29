@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int x, y;
-    scanf("%d %d", &x, &y);
-    printf("%d", x ~ y);
+    int x;
+    scanf("%d", &x);
+    printf("%d", ~x);
     return 0;
 }
