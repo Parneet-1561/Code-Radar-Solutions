@@ -7,7 +7,7 @@ int main() {
         printf("Not valid");
     }
     else {
-        for(int i = 0; i <= num; i++) {
+        for(int i = 2; i <= num; i++) {
             if(i % num == 0) {
                 isprime = 0;
                 break;
