@@ -6,11 +6,11 @@ int main() {
     if (x >= y && x >= z) {
         printf("%d", x);
     } 
-    if (y >= x && y >= z) {
+    else if (y >= x && y >= z) {
         printf("%d", y);
-    } else {
+    } 
+    else {
         printf("%d", z);
     }
-    
     return 0;
 }
