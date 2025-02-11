@@ -1,20 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    int n, isprime = 1;
-    scanf("%d", &n);
-    if (n <= 0) return 0;
+    int num, inprime = 1;
+    scanf("%d", &num);
+    if(num < 2) {
+        printf("Not valid");
+    }
     else {
-        for(int i = 2; i <= n; i++) {
-        if(n % i == 0) {
-            isprime = 0;
-            break;
+        for(int i = 0; i <= num; i++) {
+            if(i % num == 0) {
+                isprime = 0;
+                break;
+            }
         }
-        if(isPrime) {
+        if(isprime) {
             printf("Prime");
         } else {
-            printf(Not Prime);
+            printf("Not a Prime");
         }
     }
-    return 0;
 }
