@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int num, inprime = 1;
+    int num, isprime = 1;
     scanf("%d", &num);
     if(num < 2) {
         printf("Not valid");
