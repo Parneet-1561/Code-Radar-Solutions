@@ -22,5 +22,10 @@ int main() {
             }
         }
     }
-    printf("%d", smax);
+    if(max ==  smax) {
+        printf("%d", arr[i]);
+    } else {
+        printf("%d", smax);
+    }
+    
 }
