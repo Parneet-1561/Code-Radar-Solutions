@@ -23,7 +23,7 @@ int main() {
         }
     }
     if(max ==  smax) {
-        printf("%d", arr[i]);
+        printf("%d", max);
     } else {
         printf("%d", smax);
     }
