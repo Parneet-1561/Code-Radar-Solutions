@@ -17,7 +17,7 @@ int main() {
     smax = max;
     for(int i = 0; i < N; i++) {
         if(arr[i] < max) {
-            if(smax == max || smax < max) {
+            if(smax == max || arr[i] > smax) {
                 smax = arr[i];
             }
         }
