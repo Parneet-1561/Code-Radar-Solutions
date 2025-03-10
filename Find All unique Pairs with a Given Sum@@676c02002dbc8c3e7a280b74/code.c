@@ -14,6 +14,7 @@ int main() {
             if(arr[i] + arr[j] == T) {
                 if(!printed) {
                     printf("%d %d\n", arr[i], arr[j]);
+                    printed = 1;
                 }
             }
         }
