@@ -7,7 +7,7 @@ int main() {
             if(i == 1 || i == N || j == 1 || i == N) {
                 printf("*");
             } else {
-                printf(" ");
+                printf("  ");
             }
         }
          printf("\n");
