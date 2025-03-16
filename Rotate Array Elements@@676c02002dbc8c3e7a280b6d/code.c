@@ -1,4 +1,14 @@
 #include <stdio.h>
+void reverse(int arr[], int start, int end) {
+    while (start < end) {
+        int temp = arr[start];
+        arr[start] = arr[end];
+        arr[end] = temp;
+        start++;
+        end--;
+    }
+}
+
 int main() {
     int N;
     scanf("%d", &N);
@@ -8,22 +18,14 @@ int main() {
     }
     int K;
     scanf("%d", &K);
-    for(int i = 0, j = N; i < j; i++, j--) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
-    for(int i = 0, j = K - 1; i < j; i++, j--) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
-    for(int i = K, j = N - 1; i < j; i++, j--) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
+    k = k % N;
+    reverse(arr, 0, N - 1);    
+    reverse(arr, 0, K - 1);     // Reverse first K elements
+    reverse(arr, K, N - 1);     // Reverse remaining elements
+
+    
     for(int i = 0; i < N; i++) {
         printf("%d ", arr[i]);
     }
+    
 }
