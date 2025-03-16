@@ -13,7 +13,7 @@ int main() {
         }
     }
     if(largest_even) {
-        printf("%d", arr[i]);
+        printf("%d", largest_even);
     } else {
         printf("%d", "-1");
     }
