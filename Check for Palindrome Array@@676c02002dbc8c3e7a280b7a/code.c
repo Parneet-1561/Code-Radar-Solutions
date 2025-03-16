@@ -6,7 +6,7 @@ int main() {
     for(int i = 0; i < N; i++) {
         scanf("%d", &arr[i]);
     }
-    int Ispalindrome = 0;
+    int Ispalindrome = 1;
     int i = 0, j = N - 1;
     while(i < j) {
         if(arr[i] != arr[j]) {
