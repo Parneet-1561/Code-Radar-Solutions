@@ -15,6 +15,6 @@ int main() {
     if(largest_even) {
         printf("%d", largest_even);
     } else {
-        printf("%d", -1);
+        printf("%d", "-1");
     }
 }
