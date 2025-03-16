@@ -15,6 +15,7 @@ int main() {
     }
     int K;
     scanf("%d", &K);
+    K = K % N;
     reverse(arr, 0, N - 1);
     reverse(arr, 0, K - 1);
     reverse(arr, K, N - 1)
