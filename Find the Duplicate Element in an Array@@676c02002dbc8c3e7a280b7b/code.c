@@ -13,6 +13,7 @@ int main() {
         for(int j = i + 1; j <= N - 1; j++) {
             if(arr[i] == arr[j]) {
                 printf("%d", arr[i]);
+                break;
             }
         }
     }
