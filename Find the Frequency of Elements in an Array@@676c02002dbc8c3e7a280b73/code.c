@@ -2,14 +2,19 @@
 int main() {
     int n;
     scanf("%d", &n);
-    int arr[n];
+    int arr[n], visited[n];
     for(int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    int sum = 0;
+    int count = 0;
     for(int i = 0; i < n; i++) {
-        sum += 1;
+        if(visited[i] == 1) {
+            continue;
+        } else {
+            count++;
+        }
     }
+
     printf("%d %d\n",arr[0],sum);
     
 
