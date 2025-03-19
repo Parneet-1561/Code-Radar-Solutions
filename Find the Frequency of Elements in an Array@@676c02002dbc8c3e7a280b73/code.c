@@ -10,9 +10,9 @@ int main() {
     for(int i = 1; i < n; i++) {
         
         if (arr[0]==arr[i]){
-            sum+=1;
-            printf("%d %d ",arr[0],sum);
+            sum+=1;  
         }
+        printf("%d %d ",arr[0],sum);
     }
 
 }
