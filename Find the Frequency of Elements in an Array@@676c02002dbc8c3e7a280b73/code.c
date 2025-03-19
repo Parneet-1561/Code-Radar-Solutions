@@ -6,8 +6,12 @@ int main() {
     for(int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    for(int i = 0; i < n; i++) {
-        if  
+    for(int i = 1; i < n; i++) {
+        int sum=0;
+        if (arr[0]==arr[i]){
+            sum+=1;
+            printf("%d %d",arr[0],sum);
+        }
     }
 
 }
