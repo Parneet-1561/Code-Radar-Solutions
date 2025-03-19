@@ -15,7 +15,7 @@ int main() {
         }
     }
 
-    printf("%d %d\n",arr[0],sum);
+    printf("%d %d\n",arr[i], count);
     
 
 }
