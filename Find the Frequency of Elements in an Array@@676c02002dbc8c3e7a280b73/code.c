@@ -10,8 +10,7 @@ int main() {
     for(int i = 0; i < n; i++) {
         sum += 1;
     }
-        
-        printf("%d %d\n",arr[0],sum);
+    printf("%d %d\n",arr[0],sum);
     
 
 }
