@@ -7,12 +7,11 @@ int main() {
         scanf("%d", &arr[i]);
     }
     int sum = 0;
-    for(int i = 1; i < n; i++) {
-        
-        if (arr[0]==arr[i]){
-            sum+=1;  
-        }
-        printf("%d %d\n",arr[0],sum);
+    for(int i = 0; i < n; i++) {
+        sum += 1;
     }
+        
+        printf("%d %d\n",arr[0],sum);
+    
 
 }
