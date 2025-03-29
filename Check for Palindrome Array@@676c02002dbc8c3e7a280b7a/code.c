@@ -1,19 +1,19 @@
 #include <stdio.h>
 int main() {
-    int N;
-    scanf("%d", &N);
-    int arr[N];
-    for(int i = 0; i < N; i++) {
+    int n;
+    scanf("%d", &n);
+    int arr[n];
+    for(int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    int Ispalindrome = 1;
-    for(int i = 0, j = N - 1; i < j; i++, j--) {
+    int isPalindrome = 0;
+    for(int i = 0, j = n -1; i < j; i++, j--) {
         if(arr[i] != arr[j]) {
-            Ispalindrome = 0;
+            isPalindrome = 0;
             break;
         }
     }
-    if(Ispalindrome) {
+    if(isPalindrome) {
         printf("YES");
     } else {
         printf("NO");
