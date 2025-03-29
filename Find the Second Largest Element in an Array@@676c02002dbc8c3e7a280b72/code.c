@@ -14,13 +14,14 @@ int main() {
         } else if(arr[i] > sec_larg && arr[i] != largest) {
             sec_larg = arr[i];
         }
-        if(sec_larg == -1) {
+        
+        
+    }
+    if(sec_larg == -1) {
             printf("-1\n");
         } else {
             printf("%d\n", sec_larg);
         }
-        
-    }
     
     
 }
