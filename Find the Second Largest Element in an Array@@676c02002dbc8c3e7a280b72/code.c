@@ -17,7 +17,7 @@ int main() {
         if(sec_larg == -1) {
             printf("-1");
         } else {
-            printf("%d", arr[i]);
+            printf("%d", sec_larg);
         }
         
     }
