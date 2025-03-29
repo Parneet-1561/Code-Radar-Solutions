@@ -15,9 +15,8 @@ int printPrimesInRange(int a, int b) {
     for(int i = a; i < b; i++) {
         if(isPrime(i)) {
             printf("%d ", i);
-        } else {
-            printf("No prime numebrs");
-        }
+        } 
     }
+    printf("No prime numebrs");
 }
     
