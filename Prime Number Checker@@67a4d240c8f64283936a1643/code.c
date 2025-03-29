@@ -3,11 +3,12 @@ int isPrime(int num) {
         return 0;
     } else {
         for(int i = 2; i * i <= num; i++) {
-            if(i % num == 0) {
+            if(i % num != 0) {
                 printf(0);
                 break;
             }
         }
+
         
     }
 }
