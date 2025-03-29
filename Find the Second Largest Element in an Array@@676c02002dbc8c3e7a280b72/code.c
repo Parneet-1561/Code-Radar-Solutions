@@ -15,9 +15,9 @@ int main() {
             sec_larg = arr[i];
         }
         if(sec_larg == -1) {
-            printf("-1");
+            printf("-1\n");
         } else {
-            printf("%d", sec_larg);
+            printf("%d\n", sec_larg);
         }
         
     }
