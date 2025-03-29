@@ -17,6 +17,6 @@ int printPrimesInRange(int a, int b) {
             printf("%d ", i);
         } 
     }
-    printf("No prime numebrs");
+    
 }
     
