@@ -4,11 +4,11 @@ int isPrime(int num) {
     } else {
         for(int i = 2; i * i <= num; i++) {
             if(i % num != 0) {
-                printf(0);
+                return 1;
                 break;
             }
         }
-
+        return 
         
     }
 }
