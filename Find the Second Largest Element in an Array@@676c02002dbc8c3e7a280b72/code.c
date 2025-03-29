@@ -6,26 +6,13 @@ int main() {
     for(int i = 0; i < N; i++) {
         scanf("%d", &arr[i]);
     }
-
-    int max = arr[0];
-    int smax = arr[0];
-    for(int i = 0; i < N; i++) {
-        if(arr[i] > max) {
-            max = arr[i];
-        }
+    int largest = arr[0], sec_larg = -1;
+    for(int i = 0; i < n; i++) {
+        if(arr[i] > largest) {
+            sec_larg = largest;
+            largest = arr[i];
+        } 
     }
-    smax = max;
-    for(int i = 0; i < N; i++) {
-        if(arr[i] < max) {
-            if(smax == max || arr[i] > smax) {
-                smax = arr[i];
-            }
-        }
-    }
-    if(max ==  smax) {
-        printf("%d", max);
-    } else {
-        printf("%d", smax);
-    }
+    
     
 }
