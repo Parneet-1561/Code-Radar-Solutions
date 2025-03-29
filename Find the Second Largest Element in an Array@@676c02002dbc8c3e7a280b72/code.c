@@ -7,11 +7,13 @@ int main() {
         scanf("%d", &arr[i]);
     }
     int largest = arr[0], sec_larg = -1;
-    for(int i = 0; i < N; i++) {
+    for(int i = 1; i < N; i++) {
         if(arr[i] > largest) {
             sec_larg = largest;
             largest = arr[i];
-        } 
+        } else {
+            if()
+        }
         printf("%d", sec_larg);
     }
     
