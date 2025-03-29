@@ -11,7 +11,10 @@ int main() {
         if(arr[i] > largest) {
             sec_larg = largest;
             largest = arr[i];
-        } 
+        } else if(arr[i] > sec_larg && arr[i] != largest) {
+            sec_larg = arr[i];
+        }
+        
         printf("%d", sec_larg);
     }
     
