@@ -12,6 +12,7 @@ int main() {
             sec_larg = largest;
             largest = arr[i];
         } 
+        printf("%d", sec_larg);
     }
     
     
