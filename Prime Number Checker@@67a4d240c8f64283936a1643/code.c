@@ -6,8 +6,9 @@ int isPrime(int num) {
             if(i % num == 0) {
                 return 0;
                 break;
-            }
+            } 
         }
+        return 1;
         
         
     }
