@@ -15,10 +15,11 @@ int main() {
                 break;
             }
         }
-        if(count > maxfre) {
+        if(count > maxfre && count > n/2) {
             maxfre = count;
             major = arr[i];
-        }
+        } 
+        
     }
     printf("%d", major);
 }
