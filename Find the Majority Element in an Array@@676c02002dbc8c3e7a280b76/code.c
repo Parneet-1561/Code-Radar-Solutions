@@ -15,8 +15,7 @@ int main() {
                 break;
             }
         }
-        if(count > maxfre && count > n/2) {
-            maxfre = count;
+        if(count > n/2) {
             major = arr[i];
         } 
         
