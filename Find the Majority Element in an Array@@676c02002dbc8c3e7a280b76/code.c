@@ -6,7 +6,7 @@ int main() {
     for(int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    int major = -1, maxfre = 0;
+    int major = -1;
     for(int i = 0; i < n; i++) {
         int count = 0;
         for(int j = i + 1; j < n; j++) {
@@ -14,12 +14,11 @@ int main() {
                 count++;
                 break;
             }
-        }
+        } 
         if(count > n/2) {
             major = arr[i];
             break;
         } 
-        
     }
     printf("%d", major);
 }
