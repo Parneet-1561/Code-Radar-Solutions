@@ -11,8 +11,10 @@ int main() {
         if(arr[i] < smallest) {
             sec_smal = smallest;
             smallest = arr[i];            
-        } else if(arr[i] < sec_smal || sec_smal == -1) {
+        } else if(arr[i] > smallest) {
+            (arr[i] < sec_smal || sec_smal == -1) {
             sec_smal = arr[i];
+        }
         }
     }
     printf("%d", sec_smal);
