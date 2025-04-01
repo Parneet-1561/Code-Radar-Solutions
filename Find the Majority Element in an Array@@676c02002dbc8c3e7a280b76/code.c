@@ -17,6 +17,7 @@ int main() {
         }
         if(count > n/2) {
             major = arr[i];
+            break;
         } 
         
     }
