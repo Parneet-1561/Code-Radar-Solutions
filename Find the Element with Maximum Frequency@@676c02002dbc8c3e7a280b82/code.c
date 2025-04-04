@@ -13,6 +13,7 @@ int main() {
         for(int j = i + 1; j < N; j++) {
             if(arr[i] == arr[j]) {
                 count++;
+                break;
             }
         }
         if(count > maxfreq) {
