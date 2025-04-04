@@ -9,7 +9,7 @@ int main() {
     int maxEle = arr[0], maxfreq = 0;
     
     for(int i = 0; i < N; i++) {
-        int count = 1;
+        int count = 0;
         for(int j = i + 1; j < N; j++) {
             if(arr[i] == arr[j]) {
                 count++;
