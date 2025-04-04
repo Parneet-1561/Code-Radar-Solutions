@@ -20,7 +20,8 @@ int main() {
             maxfreq = count;
             maxEle = arr[i];
         }
-        printf("%d", maxEle);
+        
     }
+    printf("%d", maxEle);
 
 }
