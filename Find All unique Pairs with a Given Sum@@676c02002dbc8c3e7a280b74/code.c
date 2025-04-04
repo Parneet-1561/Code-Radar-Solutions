@@ -12,10 +12,8 @@ int main() {
     for(int i = 0; i < N; i++) {
         for(int j = i + 1; j < N; j++) {
             if(arr[i] + arr[j] == T) {
-                if(!printed) {
-                    printf("%d %d\n", arr[i], arr[j]);
-                    printed = 1;
-                }
+                printf("%d %d\n", arr[i], arr[j]);
+                printed = 1;
             }
         }
     }
