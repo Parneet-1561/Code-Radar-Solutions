@@ -7,6 +7,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
     int maxEle = arr[0], maxfreq = 0;
+    int minEle = arr[0];
     
     for(int i = 0; i < N; i++) {
         int count = 0;
@@ -19,6 +20,10 @@ int main() {
         if(count > maxfreq) {
             maxfreq = count;
             maxEle = arr[i];
+        } else {
+            if(maxfreq == count || arr[i] < minEle) {
+                minEle = arr[i];
+            }
         }
         
     }
