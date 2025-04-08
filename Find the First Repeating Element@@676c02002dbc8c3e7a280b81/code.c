@@ -15,7 +15,7 @@ int main() {
                 found = 1;
             }
         }
-        if(found){
+        if(found = 1){
         printf("%d", arr[i]);
     }
     }
