@@ -16,15 +16,6 @@ int main() {
                 found = 1;
                 break;
             }
-        }
-        if(found = 1){
-        break;
-        }
-        
+        }  
     }
-    if(found = 0){
-        printf("-1");
-    } 
-    
-    
 }
