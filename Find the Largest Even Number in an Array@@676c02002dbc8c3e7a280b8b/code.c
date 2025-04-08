@@ -6,7 +6,7 @@ int main() {
     for(int i = 0; i < N; i++) {
         scanf("%d", &arr[i]);
     }
-    int largest_even = -100000;
+    int largest_even = -1;
     for(int i = 0; i < N; i++) {
         if(arr[i] % 2 == 0 && arr[i] > largest_even) {
             largest_even =  arr[i];
