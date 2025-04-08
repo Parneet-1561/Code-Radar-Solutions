@@ -12,15 +12,19 @@ int main() {
     for(int i = 0; i < n; i++) {
         for(int j = i + 1; j < n; j++) {
             if(arr[i] == arr[j]) {
+                printf("%d", arr[i]);
                 found = 1;
                 break;
             }
         }
         if(found = 1){
-        printf("%d", arr[i]);
-    }
+        break;
+        }
         
     }
+    if(found = 0){
+        printf("1");
+    } 
     
     
 }
