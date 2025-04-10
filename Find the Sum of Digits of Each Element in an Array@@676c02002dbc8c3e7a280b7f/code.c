@@ -10,12 +10,11 @@ int main() {
     for(int i = 0; i < n; i++) {
         if(arr[i] != 0) {
             digit = arr[i] % 10;
-            sum += arr[i];
+            sum += digit;
             arr[i] /= 10;
         }
+        printf("%d ", sum);
     }
-    for(int i = 0; i < n; i++) {
-        printf("%d", sum);
-    }
+    
     
 }
