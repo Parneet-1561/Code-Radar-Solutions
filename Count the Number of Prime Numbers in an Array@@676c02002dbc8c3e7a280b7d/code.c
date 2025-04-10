@@ -14,6 +14,7 @@ int main() {
             for(int j = 2; j * j <= arr[i]; j++) {
                 if(arr[i] % j == 0) {
                     isprime = 0;
+                    break;
                 } else {
                     isprime = 1;
                     count++;
