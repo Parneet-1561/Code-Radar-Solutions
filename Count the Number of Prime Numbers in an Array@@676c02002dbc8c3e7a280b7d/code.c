@@ -11,7 +11,7 @@ int main() {
         if(arr[i] < 2) {
             continue;
         } else if(arr[i] > 2) {
-             isprime = 1;
+            int isprime = 1;
             for(int j = 2; j * j <= arr[i]; j++) {
                 if(arr[i] % j == 0) {
                     isprime = 0;
