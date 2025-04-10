@@ -10,12 +10,9 @@ int main() {
     for(int i = 0; i <n; i++) {
         for(int j=1; j<=arr[i]; j++){
             if(arr[i]%j==0){
-                count++
+                count++;
             }
         }
         }
         printf("%d",count);
-        }
-    }
-    printf("%d", count);
 }
