@@ -8,7 +8,7 @@ int main() {
     }
     
     for(int i = 0; i < n; i++) {
-        int sum = 0;
+        int sum = 0, digit;
         int num = arr[i];
         while(arr[i] != 0) {
             digit = num % 10;
