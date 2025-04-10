@@ -9,9 +9,15 @@ int main() {
     int count = 0, isprime = 0;
     for(int i = 0; i < n; i++) {
         if(arr[i] < 2) {
-            printf("1");
+            printf("Not valid");
         } else if(arr[i] > 2) {
-            
+            for(int j = 2; j * j <= arr[i]; j++) {
+                if(arr[i] % j != 0) {
+                    count += 1;
+                    isprime = 1;
+                }
+            }
         }
+        printf("%d", count);
     }
 }
